@@ -22,6 +22,10 @@ nav .brand-logo {
     width: 50px;
   }
 }
+video {
+  width: 100%;
+  height: auto;
+}
 .breadcrumbs-home {
   position: relative;
   bottom: -0.5em;
@@ -62,6 +66,7 @@ nav .brand-logo {
   margin: 0.25em 0;
   position: absolute;
   bottom: 0;
+  font-size: 3em;
 }
 .hero {
   background: rgba(0, 0, 0, 0.6);
@@ -139,6 +144,9 @@ nav .brand-logo {
   }
   .about {
     flex-direction: row;
+  }
+  .headline {
+    font-size: 3.5em;
   }
 }
 @media (min-width: 1000px) {

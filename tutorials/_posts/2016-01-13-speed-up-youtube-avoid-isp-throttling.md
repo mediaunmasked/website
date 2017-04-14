@@ -30,7 +30,7 @@ Start -> type `cmd`
   
 Type the following into the command prompt:
   
-`netsh advfirewall firewall add rule name="TWC SUCKS" dir=in action=block remoteip=173.194.55.0/24,206.111.0.0/16 enable=yes`
+`netsh advfirewall firewall add rule name="TWC SUCKS" dir=in action=block remoteip = 173.194.55.0/24,206.111.0.0/16 enable=yes`
   
 Hit enter (You should get a confirmative &#8216;Ok.')
   
