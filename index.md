@@ -8,7 +8,7 @@ title: Media Unmasked - Tech Reviews, Tutorials, and Resources
   <ul class="posts">
     {% for post in site.posts limit: 99 %}
       <li class="post">
-        <a href="{{ post.url }}" class="scene-element scene-element--fadeBig" style="background: url({{ post.image }}) center center no-repeat;">
+        <a href="{{ post.url }}" class="scene-element scene-element--fadeBig" style="background: url({{ site.url }}{{ site.baseurl }}/{{ post.image }}) center center no-repeat;">
           <div class="post-details">
             <span class="post-date">{{ post.date | date: '%B %d'  }}</span>
             <span class="post-category">{{ post.categories }}</span>
