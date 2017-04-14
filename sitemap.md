@@ -6,7 +6,7 @@ title: Sitemap
   <ol>
     {% for post in site.posts %}
       <li>
-        <a href="{{ post.url }}" class="scene-element scene-element--fadeBig">
+        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" class="scene-element scene-element--fadeBig">
           <span>{{ post.title }}</span>
         </a>
       </li>
