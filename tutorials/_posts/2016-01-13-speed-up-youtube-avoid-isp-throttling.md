@@ -20,7 +20,7 @@ TWC may put a limit on the download, or stream, speed that you can download from
 
 There is an short, easy method of adding this IP block using the command prompt and a longer, more user interface friendly version. They both do the same thing – hope you can follow one of them.
 
-> Check out [which browser is best]({{ site.url }}{{ site.baseurl }}{% post_url 2016-01-01-browsers %}) for speed and performance.
+> Check out [which browser is best]({% post_url reviews/2016-01-01-browsers %}) for speed and performance.
 
 ## Short version
 
