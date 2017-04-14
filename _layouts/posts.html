@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <link rel="stylesheet" href="{{site.url}}/style.css">
+    {% include meta.html %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <div id="main" class="m-scene">
+      {% include nav.html %}
+      <div class="scene-element scene-element scene-element--fadeDown" style="position: relative; line-height: 0; background: url({{site.url}}{{page.image}}) center center no-repeat; background-size: cover; height: 300px;">
+        <div class="hero">
+          <div class="container">
+            <h1 class="headline scene-element scene-element--fadeUp">{{page.title}}</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container about scene-element scene-element--fade">
+        <div class="breadcrumbs">{% include breadcrumbs.html path=page.path title=page.title %}</div>
+        <time datetime="{{ page.date | date: '%Y-%m-%d' }}" class="date">{{ page.date | date: '%B %d, %Y' }}</time>
+      </div>
+      <div class="container">
+        {{content}}
+      </div>
+      {% include footer.html %}
+    </div>
+    {% include scripts.html %}
+  </body>
+</html>

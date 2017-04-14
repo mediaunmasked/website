@@ -1,0 +1,263 @@
+---
+---
+
+$color-link: #ff5722;
+
+a {
+  color: $color-link;
+}
+blockquote {
+  border-left: 5px solid $color-link;
+}
+img {
+  max-width: 100%;
+}
+nav .brand-logo {
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    margin-right: 0.5em;
+    width: 50px;
+  }
+}
+.breadcrumbs-home {
+  position: relative;
+  bottom: -0.5em;
+}
+.clearfix {
+  clear: both;
+  float: none;
+}
+.about {
+  margin: 1em auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.crumb {
+  text-transform: capitalize;
+}
+.cta {
+  background-size: cover !important;
+  position: relative;
+  margin-bottom: 4.5em;
+  a {
+    position: absolute;
+    bottom: -60px;
+    left: calc(50%);
+  }
+}
+.date {
+  color: rgba(0, 0, 0, 0.8);
+  padding: 0.5em 0;
+}
+.flow-text:first-of-type {
+  margin-top: 0;
+}
+.headline {
+  color: white;
+  margin: 0.25em 0;
+  position: absolute;
+  bottom: 0;
+}
+.hero {
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 20;
+  height: 100%;
+  overflow: hidden;
+}
+// .frame1 {
+//   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f7205+0,98ce98+100 */
+//   background: rgb(31,114,5); /* Old browsers */
+//   background: -moz-linear-gradient(-45deg, rgba(31,114,5,1) 0%, rgba(152,206,152,1) 100%); /* FF3.6-15 */
+//   background: -webkit-linear-gradient(-45deg, rgba(31,114,5,1) 0%,rgba(152,206,152,1) 100%); /* Chrome10-25,Safari5.1-6 */
+//   background: linear-gradient(135deg, rgba(31,114,5,1) 0%,rgba(152,206,152,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+//   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f7205', endColorstr='#98ce98',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+//   height: 350px;
+//   width: 100%;
+//   display: flex;
+//   justify-content: flex-start;
+//   align-items: flex-end;
+//   color: white;
+//   font-size: 2em;
+//   margin: 0 1em;
+// }
+.nav-wrapper {
+  position: relative;
+  z-index: 25;
+}
+.posts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.post {
+  flex: 1 0 auto;
+  width: 100%;
+  padding: 0.5em;
+  box-sizing: border-box;
+  a {
+    position: relative;
+    background-size: cover !important;
+    height: 250px;
+    display: block;
+    .post-title {
+      position: absolute;
+      bottom: 0;
+      color: white;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 0.5em;
+      width: 100%;
+    }
+    .post-details {
+      position: absolute;
+      top: 0;
+      color: rgba(255, 255, 255, 0.8);
+      background: rgba(0, 0, 0, 0.4);
+      padding: 0.5em;
+      width: 100%;
+    }
+    .post-date {
+      float: left;
+    }
+    .post-category {
+      text-transform: capitalize;
+      float: right;
+    }
+  }
+}
+.wrapper {
+  margin: 0 0.5em;
+}
+@media (min-width: 800px) {
+  .post {
+    max-width: 50%;
+  }
+  .about {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1000px) {
+  .post {
+    max-width: 25%;
+    a {
+      height: calc(15vh + 100px);
+    }
+    // &:nth-of-type(3n) {
+    //   width: 32.5%;
+    //   a {
+    //     height: 225px;
+    //   }
+    // }
+  }
+}
+.prompt {
+  position: relative;
+  bottom: -0.5em;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.inline {
+  display: inline;
+  &.pull-right {
+    margin-left: 1em;
+  }
+  &.pull-left {
+    margin-right: 1em;
+  }
+}
+.s12 {
+  width: 100%;
+}
+.s3 {
+  width: 25%;
+}
+@media (min-width: 500px) {
+  .m4 {
+    width: 33.33%;
+  }
+  .m3 {
+    width: 25%;
+  }
+  .m1 {
+    width: 8.33%;
+  }
+}
+
+nav {
+  position: relative;
+  z-index: 55;
+}
+
+footer {
+  color: white;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+// Navbar
+#sidenav-overlay {
+  z-index: 50;
+}
+
+// Keyframes
+@keyframes fade {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes fadeUp {
+  0% {opacity: 0; transform: translate3d(0, 100%, 0);}
+  100% {opacity: 1; transform: none;}
+}
+@keyframes fadeUp10 {
+  0% {opacity: 0; transform: translate3d(0, 10%, 0);}
+  100% {opacity: 1; transform: none;}
+}
+@keyframes fadeDown {
+  0% {opacity: 0; transform: translate3d(0, -100%, 0);}
+  100% {opacity: 1; transform: none;}
+}
+@keyframes fadeDown10 {
+  0% {opacity: 0; transform: translate3d(0, -10%, 0);}
+  100% {opacity: 1; transform: none;}
+}
+@keyframes fadeRight {
+  0% {opacity: 0; transform: translate3d(100%, 0, 0);}
+  100% {opacity: 1; transform: none;}
+}
+@keyframes fadeLeft {
+  0% {opacity: 0; transform: translate3d(-100%, 0, 0);}
+  100% {opacity: 1; transform: none;}
+}
+@keyframes fadeBig {
+  0% {opacity: 0; transform: scale(0.5);}
+  100% {opacity: 1; transform: scale(1);}
+}
+
+// Page animations
+.m-scene .scene-element {
+  animation-duration: 0.3s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+.is-exiting .scene-element {
+  animation-direction: alternate-reverse;
+}
+.m-scene .scene-element--fade {animation-name: fade;}
+.m-scene .scene-element--fadeUp {animation-name: fadeUp;}
+.m-scene .scene-element--fadeUp10 {animation-name: fadeUp10;}
+.m-scene .scene-element--fadeDown {animation-name: fadeDown;}
+.m-scene .scene-element--fadeDown10 {animation-name: fadeDown10;}
+.m-scene .scene-element--fadeRight {animation-name: fadeRight;}
+.m-scene .scene-element--fadeLeft {animation-name: fadeLeft;}
+.m-scene .scene-element--fadeBig {animation-name: fadeBig;}

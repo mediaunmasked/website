@@ -1,0 +1,2 @@
+# Media Unmasked
+The home to my website about web design, photography, videography, and other tutorials as well as some reviews, free resources, and gear. If you want to learn some software or new techniques for shooting video, taking photos, or building websites or apps, [check it out](mediaunmasked.com)!
