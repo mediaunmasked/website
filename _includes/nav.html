@@ -1,16 +1,16 @@
 <nav class="grey darken-4">
   <div class="nav-wrapper">
-    <a href="{{site.url}}{{site.baseurl}}" class="brand-logo"><img src="{{site.url}}/assets/logo.svg" alt=""><span class="hide-on-small-only">{{site.title}}</span>&nbsp;</a>
+    <a href="{{ site.url }}{{ site.baseurl }}" class="brand-logo"><img src="{{ site.url }}{{ site.baseurl }}/assets/logo.svg" alt=""><span class="hide-on-small-only">{{site.title}}</span>&nbsp;</a>
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
       {% assign categories_list = site.categories %}
         {% if categories_list.first[0] == null %}
           {% for category in categories_list %}
-            <li><a href="{{site.url}}/{{category[0]}}">{{ category | capitalize }} ({{ site.tags[category].size }})</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}/{{category[0]}}">{{ category | capitalize }} ({{ site.tags[category].size }})</a></li>
           {% endfor %}
         {% else %}
           {% for category in categories_list %}
-            <li><a href="{{site.url}}/{{category[0]}}">{{ category[0] | capitalize }}</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}/{{category[0]}}">{{ category[0] | capitalize }}</a></li>
           {% endfor %}
         {% endif %}
       {% assign categories_list = nil %}
@@ -20,11 +20,11 @@
     {% assign categories_list = site.categories %}
       {% if categories_list.first[0] == null %}
         {% for category in categories_list %}
-          <li><a href="{{site.url}}/{{category[0]}}">{{ category | capitalize }} ({{ site.tags[category].size }})</a></li>
+          <li><a href="{{ site.url }}{{ site.baseurl }}/{{category[0]}}">{{ category | capitalize }} ({{ site.tags[category].size }})</a></li>
         {% endfor %}
       {% else %}
         {% for category in categories_list %}
-          <li><a href="{{site.url}}/{{category[0]}}">{{ category[0] | capitalize }}</a></li>
+          <li><a href="{{ site.url }}{{ site.baseurl }}/{{category[0]}}">{{ category[0] | capitalize }}</a></li>
         {% endfor %}
       {% endif %}
     {% assign categories_list = nil %}
