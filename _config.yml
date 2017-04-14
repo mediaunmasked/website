@@ -35,7 +35,7 @@ sass:
   sass_dir: _sass
   style: compressed
 excerpt_separator: <!--more-->
-permalink: /:categories/:title
+permalink: /:categories/:title/
 defaults:
   -
     scope:

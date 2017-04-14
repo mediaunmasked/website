@@ -20,5 +20,5 @@ title: Media Unmasked - Tech Reviews, Tutorials, and Resources
   </ul>
 </div>
 <div class="container scene-element scene-element--fadeDown10">
-  <div class="center-align"><a href="{{site.url}}/sitemap" class="btn blue darken-4">View All Posts</a></div>
+  <div class="center-align"><a href="{{ site.url }}{{ site.baseurl }}/sitemap" class="btn blue darken-4">View All Posts</a></div>
 </div>
