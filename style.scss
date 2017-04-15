@@ -26,12 +26,12 @@ video {
   width: 100%;
   height: auto;
 }
-.amzn-native-container {
-  margin: 0 auto;
-}
 .amzn-native-product {
   border-radius: 3px;
   border: 1px solid #ccc;
+}
+#amzn_assoc_ad_div_adunit0_0 {
+  margin-top: 3em;
 }
 div#amzn-native-ad-0 {
   max-width: 100% !important;
@@ -220,7 +220,6 @@ nav {
 footer {
   color: white;
   padding: 1em;
-  margin-top: 2em;
 }
 
 // Navbar
