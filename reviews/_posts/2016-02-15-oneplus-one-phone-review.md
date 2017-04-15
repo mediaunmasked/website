@@ -168,3 +168,5 @@ Again, if you're looking for a phone to just text, call, and do basic phone stuf
 <div class='cta' style='background: url("https://i.imgur.com/nQS2cbI.jpg") center center; height: 475px'>
   <a href='//amzn.to/1T78fY9' class='waves-effect waves-light btn-large white red-text'>Check price on Amazon</a>
 </div>
+
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=8a09cdf6-d7ea-49ec-b881-98c0225468ee"></script>
