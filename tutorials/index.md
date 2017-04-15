@@ -1,8 +1,8 @@
 ---
-title:  "Tech stuff yo"
+title:  "Tech Gear / Software Tutorials"
 image: 'http://placehold.it/500x500'
 ---
-<div class="scene-element scene-element--fadeUp10">
+<div class="container scene-element scene-element--fadeUp10">
   <ul class="posts">
     {% for post in site.categories["tutorials"] limit: 24 %}
       <li class="post">

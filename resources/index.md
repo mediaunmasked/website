@@ -1,8 +1,8 @@
 ---
-title:  "Resources"
+title:  "Tech / Gear Free Resources & Lists"
 image: 'http://placehold.it/500x500'
 ---
-<div class="scene-element scene-element--fadeUp10">
+<div class="container scene-element scene-element--fadeUp10">
   <ul class="posts">
     {% for post in site.categories["resources"] limit: 24 %}
       <li class="post">

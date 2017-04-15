@@ -29,6 +29,13 @@ video {
 .amzn-native-container {
   margin: 0 auto;
 }
+.amzn-native-product {
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+div#amzn-native-ad-0 {
+  max-width: 100% !important;
+}
 .breadcrumbs-home {
   position: relative;
   bottom: -0.5em;
