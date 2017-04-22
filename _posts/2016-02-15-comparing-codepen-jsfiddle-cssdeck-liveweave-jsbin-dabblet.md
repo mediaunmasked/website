@@ -1,7 +1,11 @@
 ---
 title: Comparing Codepen, JSFiddle, JSBin, Plunkr, CSSDeck, Liveweave, Dabblet
-image: /assets/2016/02/HZlxXt4.jpg
+date: 2016-02-15 00:00:00 Z
+categories:
+- reviews
+image: "/assets/2016/02/HZlxXt4.jpg"
 ---
+
 ## What is a code playground?
 
 Codepen, JSFiddle, JS Bin, Dabblet, CSS Deck, and Liveweave are HTML, CSS and JavaScript playgrounds, meaning that you can type in your HTML, CSS and JavaScript to troubleshoot, mess around with some code, or quickly write HTML CSS, and Javascript. These sites are the leading playgrounds for front-end developers and in this article I hope to point out some pros and cons of each and conclude an overall winner. If anyone is familiar with C++, these playgrounds are like drivers – you use them to avoid creating a mess of code that you can't troubleshoot.

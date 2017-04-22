@@ -1,7 +1,11 @@
 ---
 title: OnePlus One phone review
-image: /assets/2016/02/2kiVh6x.jpg
+date: 2016-02-15 00:00:00 Z
+categories:
+- reviews
+image: "/assets/2016/02/2kiVh6x.jpg"
 ---
+
 ## OnePlus One
 
 Ever since my first phone went through the washer, I searched far and wide for a phone that was powerful and big enough to do the many things I wanted in a phone and still fit in my pocket and hand comfortably. After hearing about the OnePlus One, I knew it was the phone for me.

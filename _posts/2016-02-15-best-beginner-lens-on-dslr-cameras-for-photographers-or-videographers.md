@@ -1,7 +1,11 @@
 ---
 title: Best (cheap) DSLR lenses
-image: /assets/2016/02/OusLEXG.jpg
+date: 2016-02-15 00:00:00 Z
+categories:
+- reviews
+image: "/assets/2016/02/OusLEXG.jpg"
 ---
+
 ## What use do you have for the lens?
 
 There are many lenses to choose from the DSLR family and it can be a bit daunting when you don't know what you're looking for. Beginner lenses should be cheap and effective - luckily, there are a few out there that fit such criteria.

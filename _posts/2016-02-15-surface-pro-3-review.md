@@ -1,7 +1,11 @@
 ---
 title: Surface Pro 3 review
-image: /assets/2016/02/sp3.jpg
+date: 2016-02-15 00:00:00 Z
+categories:
+- reviews
+image: "/assets/2016/02/sp3.jpg"
 ---
+
 ## Surface Pro 3
 
 The [Surface Pro 3](http://amzn.to/1QlJy41) is a lightweight tablet that is powerful enough to replace both your laptop and your tablet. It features a pressure sensitive pen, a 12 inch touchscreen, and a detachable, backlit keyboard. In Microsoft's reveal, the big message they wanted to convey was that this device is meant to replace your laptop and tablet. With a full Windows 10 operating system, the Surface Pro 3 can run any application that you would on your laptop. Microsoft hopes that the Surface Pro 3 will replace your tablet and laptop; they hope to replace your main entertainment device and productivity device. I respect its ambition and think it has accomplished what it has set out to do.

@@ -1,7 +1,11 @@
 ---
 title: Awesomenauts Review
-image: /assets/2016/02/xtf3eUF.jpg
+date: 2015-03-11 00:00:00 Z
+categories:
+- reviews
+image: "/assets/2016/02/xtf3eUF.jpg"
 ---
+
 If you don't have much time to play as many video games as you'd like, this game is a good _pick up and play one game_ style of game. It's easy to play one match and not be addicted. That doesn't mean it can't be addicting if you let it. The playerbase is rather small compared to other MOBA styled games, but that can be a nice thing. You'll occasionally see some familiar names that you can later team up with and have some fun!
 
 > Awesomenauts is a fun, stylish, and easy-to-learn 2D MOBA.

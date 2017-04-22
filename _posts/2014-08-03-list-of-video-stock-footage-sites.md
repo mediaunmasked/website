@@ -1,7 +1,11 @@
 ---
 title: List of free stock video footage sites
-image: /assets/2016/01/At3W7yG.jpg
+date: 2014-08-03 00:00:00 Z
+categories:
+- resources
+image: "/assets/2016/01/At3W7yG.jpg"
 ---
+
 This is a list of sites where you can get some royalty free videos (some are completely free of charge) that you can put in your own videos, commercially or noncommercially.
 
 ### Royalty-free stock video footage

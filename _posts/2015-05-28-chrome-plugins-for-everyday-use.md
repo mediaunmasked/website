@@ -1,7 +1,11 @@
 ---
 title: 20 Chrome plugins for everyday use
-image: /assets/2015/05/SBMHfsm.jpg
+date: 2015-05-28 00:00:00 Z
+categories:
+- resources
+image: "/assets/2015/05/SBMHfsm.jpg"
 ---
+
 ### Chrome plugins
 
 If you use Google Chrome as your main web browser, you should also be taking advantage of plugins/extensions that can be made by anyone. These make the browser infinitely more powerful and will help you with everyday browsing and should save you time.

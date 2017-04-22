@@ -1,7 +1,11 @@
 ---
 title: Understanding your DSLR
-image: /assets/2016/02/uUSsclo.jpg
+date: 2014-10-15 00:00:00 Z
+categories:
+- tutorials
+image: "/assets/2016/02/uUSsclo.jpg"
 ---
+
 ### Videography and photography with DSLR cameras
 
 Everyone's got a camera in their pocket right now - their phones! Smart phones are getting better and better at taking photos and videos, but it's unlikely that they'll ever surpass the modern, dedicated cameras such as mirrorless or digital single lens reflex (DSLR) cameras. The main difference between your phone and a DSLR camera is the fact that a DSLR camera provides more _control_. You have more control over the settings and therefore the end image or video.

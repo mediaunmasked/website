@@ -1,6 +1,9 @@
 ---
 title: Don't Starve Review
-image: /assets/2016/02/vNVugWg-1024x576.png
+date: 2015-04-15 00:00:00 Z
+categories:
+- reviews
+image: "/assets/2016/02/vNVugWg-1024x576.png"
 ---
 
 ### Game information

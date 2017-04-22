@@ -1,5 +1,6 @@
 ---
 title: twitter
 redirect:
-  - https://twitter.com/MediaUnmasked
+- https://twitter.com/MediaUnmasked
 ---
+

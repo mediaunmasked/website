@@ -1,8 +1,13 @@
 ---
 title: How to do FPV on your phone
-image: /assets/2016/02/nrGgCUM.jpg
-excerpt: Discover how to affordably fly FPV RC quadcopters on your phone with an app, a wire, and a module.
+date: 2016-02-15 00:00:00 Z
+categories:
+- tutorials
+image: "/assets/2016/02/nrGgCUM.jpg"
+excerpt: Discover how to affordably fly FPV RC quadcopters on your phone with an app,
+  a wire, and a module.
 ---
+
 ## Radio controlled first person view
 
 We live in a fantastic time (compared to the past, not the future), and part of what makes this year so great is the ability to pilot an aircraft the size of a tarantula for under $50.

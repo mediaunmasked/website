@@ -1,5 +1,6 @@
 ---
 title: sublimetext
 redirect:
-  - http://www.sublimetext.com
+- http://www.sublimetext.com
 ---
+

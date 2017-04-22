@@ -1,7 +1,11 @@
 ---
-title: 'Speed up youtube &#038; avoid time warner ISP throttling'
-image: /assets/2016/02/twc.jpg
+title: Speed up youtube &#038; avoid time warner ISP throttling
+date: 2016-01-13 00:00:00 Z
+categories:
+- tutorials
+image: "/assets/2016/02/twc.jpg"
 ---
+
 ## ISP throttling
 
 Time Warner Cable (TWC) and a few other internet providers can do a sneaky thing (probably stated in their terms of service somewhere) where they throttle your internet download speed when streaming (and uploading) a youtube (or similar stream based sites such as Netflix, Hulu, Twitch, etc.) video.

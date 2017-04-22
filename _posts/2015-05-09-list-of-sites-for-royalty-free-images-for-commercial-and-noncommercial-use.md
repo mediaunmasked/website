@@ -1,7 +1,11 @@
 ---
 title: Royalty free images
-image: /assets/2016/01/zmzzPAa.jpg
+date: 2015-05-09 00:00:00 Z
+categories:
+- resources
+image: "/assets/2016/01/zmzzPAa.jpg"
 ---
+
 The following list of sites are places where you can search or browse for royalty free images (some are completely free of charge) that you can put in your own videos, slideshows, or other project - commercially or noncommercially (read the description of the item you pick to see what needs to be done in terms of attribution).
 
 ### Royalty-free images
