@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+<link rel="stylesheet" href="https://mediaunmasked.com/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Speed up youtube &#038; avoid time warner ISP throttling</title>
+<meta name="description" content="ISP throttlingTime Warner Cable (TWC) and a few other internet providers can do a sneaky thing (probably stated in their terms of service somewhere) where they throttle your internet download speed when streaming (and uploading) a youtube (or similar stream based sites such as Netflix, Hulu, Twitch, etc.) video.I have the basic Time Warner Cable package that includes phone, cable and internet. Using speedtest.net, I normally had anywhere from 1-10 mb/s download, and always under 1mb/s upload (when I was paying for 15mb/s). This is because Time Warner Cable was throttling the internet.  Note: some speed test websites can show inaccurate results. Try using a couple unaffiliated speed testing sites.Use Google’s public DNSA quick tip for speeding up all websites, even if only a little is by changing from your current, default DNS to Google’s. A DNS is essentially a phone book for the internet. When you go to a website, your computer (or router) performs a DNS lookup before it downloads it. Routers will often default to use your internet service provider’s DNS. To change your router’s DNS to Google’s public DNS for faster and more secure DNS lookups:Go to your router’s home page (common one is 192.168.1.1) and navigate to the internet section. On this page, you should find a Domain Name Server (DNS) Address header. Remove any default values (or change it to Use These DNS Servers) and enter 8.8.8.8 and/or 8.8.4.4 (the second one is an alternative). Restart your router and you should be using Google’s public DNS servers!TWC may put a limit on the download, or stream, speed that you can download from sites like YouTube, Twitch, Netflix and Hulu. Each time you open a video, your computer connects to a server, one that TWC has inherently throttled. Luckily, there is an easy fix to this problem. You’ll need to block the primary connection that is requested. It will then request the default, faster, server (which will speed up the download speed tremendously).There is an short, easy method of adding this IP block using the command prompt and a longer, more user interface friendly version. They both do the same thing – hope you can follow one of them.  Check out which browser is best for speed and performance.Short versionStart -&gt; type cmdType the following into the command prompt:netsh advfirewall firewall add rule name="TWC SUCKS" dir=in action=block remoteip = 173.194.55.0/24,206.111.0.0/16 enable=yesHit enter (You should get a confirmative ‘Ok.’)That’s it. Now it should default to the faster IP when requesting certain sites.  Note: to undo this, type the following:  netsh advfirewall firewall delete rule name="TWC SUCKS"Long versionStart -&gt; type firewallClick InBound Rules (top left)Click new ruleCheck custom -&gt; nextCheck all programs -&gt; nextLeave the default settings -&gt; NextUnder REMOTE IP addresses, check These IP addresses -&gt; Add:173.194.55.0/24 206.111.0.0/16NextBlock the connextions -&gt; NextKeep Domain, Private and Public all checked -&gt; NextGive it a proper name and description -&gt; Finish"/>
+<meta name="twitter:card" content="ISP throttlingTime Warner Cable (TWC) and a few other internet providers can do a sneaky thing (probably stated in their terms of service somewhere) where they throttle your internet download speed when streaming (and uploading) a youtube (or similar stream based sites such as Netflix, Hulu, Twitch, etc.) video.I have the basic Time Warner Cable package that includes phone, cable and internet. Using speedtest.net, I normally had anywhere from 1-10 mb/s download, and always under 1mb/s upload (when I was paying for 15mb/s). This is because Time Warner Cable was throttling the internet.  Note: some speed test websites can show inaccurate results. Try using a couple unaffiliated speed testing sites.Use Google’s public DNSA quick tip for speeding up all websites, even if only a little is by changing from your current, default DNS to Google’s. A DNS is essentially a phone book for the internet. When you go to a website, your computer (or router) performs a DNS lookup before it downloads it. Routers will often default to use your internet service provider’s DNS. To change your router’s DNS to Google’s public DNS for faster and more secure DNS lookups:Go to your router’s home page (common one is 192.168.1.1) and navigate to the internet section. On this page, you should find a Domain Name Server (DNS) Address header. Remove any default values (or change it to Use These DNS Servers) and enter 8.8.8.8 and/or 8.8.4.4 (the second one is an alternative). Restart your router and you should be using Google’s public DNS servers!TWC may put a limit on the download, or stream, speed that you can download from sites like YouTube, Twitch, Netflix and Hulu. Each time you open a video, your computer connects to a server, one that TWC has inherently throttled. Luckily, there is an easy fix to this problem. You’ll need to block the primary connection that is requested. It will then request the default, faster, server (which will speed up the download speed tremendously).There is an short, easy method of adding this IP block using the command prompt and a longer, more user interface friendly version. They both do the same thing – hope you can follow one of them.  Check out which browser is best for speed and performance.Short versionStart -&gt; type cmdType the following into the command prompt:netsh advfirewall firewall add rule name="TWC SUCKS" dir=in action=block remoteip = 173.194.55.0/24,206.111.0.0/16 enable=yesHit enter (You should get a confirmative ‘Ok.’)That’s it. Now it should default to the faster IP when requesting certain sites.  Note: to undo this, type the following:  netsh advfirewall firewall delete rule name="TWC SUCKS"Long versionStart -&gt; type firewallClick InBound Rules (top left)Click new ruleCheck custom -&gt; nextCheck all programs -&gt; nextLeave the default settings -&gt; NextUnder REMOTE IP addresses, check These IP addresses -&gt; Add:173.194.55.0/24 206.111.0.0/16NextBlock the connextions -&gt; NextKeep Domain, Private and Public all checked -&gt; NextGive it a proper name and description -&gt; Finish" />
+
+<meta property="og:url" content="https://mediaunmasked.com/_posts/2016-01-13-speed-up-youtube-avoid-isp-throttling.md" />
+<meta property="og:title" content="Speed up youtube &#038; avoid time warner ISP throttling" />
+<meta property="og:description" content="ISP throttlingTime Warner Cable (TWC) and a few other internet providers can do a sneaky thing (probably stated in their terms of service somewhere) where they throttle your internet download speed when streaming (and uploading) a youtube (or similar stream based sites such as Netflix, Hulu, Twitch, etc.) video.I have the basic Time Warner Cable package that includes phone, cable and internet. Using speedtest.net, I normally had anywhere from 1-10 mb/s download, and always under 1mb/s upload (when I was paying for 15mb/s). This is because Time Warner Cable was throttling the internet.  Note: some speed test websites can show inaccurate results. Try using a couple unaffiliated speed testing sites.Use Google’s public DNSA quick tip for speeding up all websites, even if only a little is by changing from your current, default DNS to Google’s. A DNS is essentially a phone book for the internet. When you go to a website, your computer (or router) performs a DNS lookup before it downloads it. Routers will often default to use your internet service provider’s DNS. To change your router’s DNS to Google’s public DNS for faster and more secure DNS lookups:Go to your router’s home page (common one is 192.168.1.1) and navigate to the internet section. On this page, you should find a Domain Name Server (DNS) Address header. Remove any default values (or change it to Use These DNS Servers) and enter 8.8.8.8 and/or 8.8.4.4 (the second one is an alternative). Restart your router and you should be using Google’s public DNS servers!TWC may put a limit on the download, or stream, speed that you can download from sites like YouTube, Twitch, Netflix and Hulu. Each time you open a video, your computer connects to a server, one that TWC has inherently throttled. Luckily, there is an easy fix to this problem. You’ll need to block the primary connection that is requested. It will then request the default, faster, server (which will speed up the download speed tremendously).There is an short, easy method of adding this IP block using the command prompt and a longer, more user interface friendly version. They both do the same thing – hope you can follow one of them.  Check out which browser is best for speed and performance.Short versionStart -&gt; type cmdType the following into the command prompt:netsh advfirewall firewall add rule name="TWC SUCKS" dir=in action=block remoteip = 173.194.55.0/24,206.111.0.0/16 enable=yesHit enter (You should get a confirmative ‘Ok.’)That’s it. Now it should default to the faster IP when requesting certain sites.  Note: to undo this, type the following:  netsh advfirewall firewall delete rule name="TWC SUCKS"Long versionStart -&gt; type firewallClick InBound Rules (top left)Click new ruleCheck custom -&gt; nextCheck all programs -&gt; nextLeave the default settings -&gt; NextUnder REMOTE IP addresses, check These IP addresses -&gt; Add:173.194.55.0/24 206.111.0.0/16NextBlock the connextions -&gt; NextKeep Domain, Private and Public all checked -&gt; NextGive it a proper name and description -&gt; Finish" />
+<meta property="og:image" content="/assets/2016/02/twc.jpg" />
+<link rel="icon" type="image/png" href="https://mediaunmasked.com/assets/favicon.png" />
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-1335786241529939",
+    enable_page_level_ads: true
+  });
+</script>
+  </head>
+  <body>
+    <div id="main" class="m-scene">
+      <nav class="grey darken-4">
+  <div class="nav-wrapper">
+    <a href="https://mediaunmasked.com/" class="brand-logo"><img src="https://mediaunmasked.com/assets/logo.svg" alt=""><span class="hide-on-small-only">Media Unmasked</span>&nbsp;</a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      
+        
+          
+            <li><a href="https://mediaunmasked.com/resources/">Resources</a></li>
+          
+            <li><a href="https://mediaunmasked.com/tutorials/">Tutorials</a></li>
+          
+            <li><a href="https://mediaunmasked.com/reviews/">Reviews</a></li>
+          
+        
+      
+    </ul>
+  </div>
+  <ul class="side-nav" id="mobile-demo">
+    
+      
+        
+          <li><a href="https://mediaunmasked.com/resources/">Resources</a></li>
+        
+          <li><a href="https://mediaunmasked.com/tutorials/">Tutorials</a></li>
+        
+          <li><a href="https://mediaunmasked.com/reviews/">Reviews</a></li>
+        
+      
+    
+  </ul>
+</nav>
+      <div class="scene-element scene-element scene-element--fadeDown" style="position: relative; line-height: 0; background: url(https://mediaunmasked.com/assets/2016/02/twc.jpg) center center no-repeat; background-size: cover; height: 300px;">
+        <div class="hero">
+          <div class="container">
+            <h1 class="headline scene-element scene-element--fadeUp">Speed up youtube &#038; avoid time warner ISP throttling</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container about scene-element scene-element--fade">
+        <div class="breadcrumbs">
+
+
+
+<a href="https://mediaunmasked.com/" class="breadcrumbs-home"><i class="material-icons">home</i></a>
+
+<span class="prompt"><i class="material-icons">navigate_next</i></span>
+
+
+Speed up youtube &#038; avoid time warner isp throttling
+
+</div>
+        <time datetime="2016-01-13" class="date">January 13, 2016</time>
+      </div>
+      <div class="container">
+        <h2 id="isp-throttling">ISP throttling</h2>
+
+<p>Time Warner Cable (TWC) and a few other internet providers can do a sneaky thing (probably stated in their terms of service somewhere) where they throttle your internet download speed when streaming (and uploading) a youtube (or similar stream based sites such as Netflix, Hulu, Twitch, etc.) video.</p>
+
+<p>I have the basic Time Warner Cable package that includes phone, cable and internet. Using speedtest.net, I normally had anywhere from 1-10 mb/s download, and always under 1mb/s upload (when I was paying for 15mb/s). This is because Time Warner Cable was throttling the internet.</p>
+
+<blockquote>
+  <p>Note: some speed test websites can show inaccurate results. Try using a couple unaffiliated speed testing sites.</p>
+</blockquote>
+
+<h2 id="use-googles-public-dns">Use Google’s public DNS</h2>
+
+<p>A quick tip for speeding up <strong>all</strong> websites, even if only a little is by changing from your current, default DNS to Google’s. A DNS is essentially a phone book for the internet. When you go to a website, your computer (or router) performs a DNS lookup before it downloads it. Routers will often default to use your internet service provider’s DNS. To change your router’s DNS to Google’s public DNS for faster and more secure DNS lookups:</p>
+
+<p>Go to your router’s home page (common one is <a href="http://192.168.1.1/">192.168.1.1</a>) and navigate to the internet section. On this page, you should find a <em>Domain Name Server (DNS) Address</em> header. Remove any default values (or change it to <em>Use These DNS Servers</em>) and enter <code class="highlighter-rouge">8.8.8.8</code> <strong>and/or</strong> <code class="highlighter-rouge">8.8.4.4</code> (the second one is an alternative). Restart your router and you should be using Google’s public DNS servers!</p>
+
+<p>TWC may put a limit on the download, or stream, speed that you can download from sites like YouTube, Twitch, Netflix and Hulu. Each time you open a video, your computer connects to a server, one that TWC has inherently throttled. Luckily, there is an easy fix to this problem. You’ll need to block the primary connection that is requested. It will then request the default, faster, server (which will speed up the download speed tremendously).</p>
+
+<p>There is an short, easy method of adding this IP block using the command prompt and a longer, more user interface friendly version. They both do the same thing – hope you can follow one of them.</p>
+
+<blockquote>
+  <p>Check out <a href="/reviews/browsers/">which browser is best</a> for speed and performance.</p>
+</blockquote>
+
+<h2 id="short-version">Short version</h2>
+
+<p>Start -&gt; type <code class="highlighter-rouge">cmd</code></p>
+
+<p><img src="https://i.imgur.com/iSDNPAV.png" alt="Open cmd.exe from windows 7" /></p>
+
+<p>Type the following into the command prompt:</p>
+
+<p><code class="highlighter-rouge">netsh advfirewall firewall add rule name="TWC SUCKS" dir=in action=block remoteip = 173.194.55.0/24,206.111.0.0/16 enable=yes</code></p>
+
+<p>Hit enter (You should get a confirmative ‘Ok.’)</p>
+
+<p><img src="https://i.imgur.com/3rvH6Xt.png" alt="Hit enter to get a confirmation message" /></p>
+
+<p>That’s it. Now it should default to the faster IP when requesting certain sites.</p>
+
+<blockquote>
+  <p>Note: to undo this, type the following:</p>
+</blockquote>
+
+<blockquote>
+  <p><code class="highlighter-rouge">netsh advfirewall firewall delete rule name="TWC SUCKS"</code></p>
+</blockquote>
+
+<h2 id="long-version">Long version</h2>
+
+<p>Start -&gt; type <code class="highlighter-rouge">firewall</code></p>
+
+<p><img src="https://i.imgur.com/Zo8HQFo.png" alt="type firewall into start menu" /></p>
+
+<p>Click InBound Rules (top left)</p>
+
+<p><img src="https://i.imgur.com/L2JDXcG.png" alt="inbound rules" /></p>
+
+<p>Click new rule</p>
+
+<p><img src="https://i.imgur.com/rbxj94X.png" alt="Click new rule" /></p>
+
+<p>Check custom -&gt; next</p>
+
+<p><img src="https://i.imgur.com/srk7Z0W.png" alt="Select custom radio button" /></p>
+
+<p>Check all programs -&gt; next</p>
+
+<p><img src="https://i.imgur.com/cPePvWF.png" alt="Select All programs and hit next" /></p>
+
+<p>Leave the default settings -&gt; Next</p>
+
+<p><img src="https://i.imgur.com/8bdpjm8.png" alt="" /></p>
+
+<p>Under REMOTE IP addresses, check These IP addresses -&gt; Add:</p>
+
+<p><code class="highlighter-rouge">173.194.55.0/24 206.111.0.0/16</code></p>
+
+<p><img src="https://i.imgur.com/Vx6CKd1.png" alt="" /></p>
+
+<p>Next</p>
+
+<p>Block the connextions -&gt; Next</p>
+
+<p><img src="https://i.imgur.com/fnPrPr4.png" alt="" /></p>
+
+<p>Keep Domain, Private and Public all checked -&gt; Next</p>
+
+<p><img src="https://i.imgur.com/4fMNM2i.png" alt="" /></p>
+
+<p>Give it a proper name and description -&gt; Finish</p>
+
+<p><img src="https://i.imgur.com/z3OqYyA.png" alt="" /></p>
+
+      </div>
+      <!-- Amazon bottom ads -->
+<div class="container">
+  <script type="text/javascript">
+    amzn_assoc_placement = "adunit0";
+    amzn_assoc_search_bar = "false";
+    amzn_assoc_tracking_id = "mediunma0d-20";
+    amzn_assoc_ad_mode = "manual";
+    amzn_assoc_ad_type = "smart";
+    amzn_assoc_marketplace = "amazon";
+    amzn_assoc_region = "US";
+    amzn_assoc_title = "Awesome Gear";
+    amzn_assoc_linkid = "bd3d8c9c41ddae9f621d91f49591fe38";
+    amzn_assoc_asins = "B01606KJ6C,B01H3V07EW,B00I8BICB2,B00YD548Q0";
+  </script>
+  <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+</div>
+
+<footer class="white grey-text text-lighten-2">
+  <div class="footer-copyright">
+    <div class="container center-align">
+      &copy; 2017 Media Unmasked
+    </div>
+  </div>
+</footer>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+<script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-40605352-13', 'auto');
+  ga('require', 'cleanUrlTracker');
+  ga('require', 'eventTracker');
+  ga('require', 'impressionTracker');
+  ga('require', 'maxScrollTracker');
+  ga('require', 'mediaQueryTracker');
+  ga('require', 'outboundFormTracker');
+  ga('require', 'outboundLinkTracker');
+  ga('require', 'pageVisibilityTracker');
+  ga('require', 'socialWidgetTracker');
+  ga('require', 'urlChangeTracker');
+  ga('send', 'pageview');
+  $('.cta a').css('left', $('.cta a').width());
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.3.0/autotrack.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.3/isotope.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothState.js/0.7.2/jquery.smoothState.min.js"></script>
+<script>
+  $(function(){
+    $(".button-collapse").sideNav();
+    $('.parallax').parallax();
+    $('.row').isotope({
+      itemSelector: '.col'
+    });
+    var ctaWidth = "calc(50% - " + ($('.cta a').width()/2) + "px)";
+    $('.cta a').css('left', ctaWidth);
+    'use strict';
+    var $page = $('#main'),
+        options = {
+          debug: true,
+          prefetch: true,
+          cacheLength: 2,
+          onStart: {
+            duration: 300, // Duration of our animation
+            render: function ($container) {
+              // Add your CSS animation reversing class
+              $container.addClass('is-exiting');
+              // Restart your animation
+              smoothState.restartCSSAnimations();
+              $('.button-collapse').sideNav('hide');
+            }
+          },
+          onReady: {
+            duration: 0,
+            render: function ($container, $newContent) {
+              // Remove your CSS animation reversing class
+              $container.removeClass('is-exiting');
+              // Inject the new content
+              $container.html($newContent);
+            }
+          },
+          onAfter: function($container, $newContent) {
+            $(".button-collapse").sideNav();
+            $('.parallax').parallax();
+            $('.row').isotope({
+              itemSelector: '.col'
+            });
+            var ctaWidth = "calc(50% - " + ($('.cta a').width()/2) + "px)";
+            $('.cta a').css('left', ctaWidth);
+          }
+        },
+        smoothState = $page.smoothState(options).data('smoothState');
+  });
+
+</script>
+  </body>
+</html>
